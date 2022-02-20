@@ -4,7 +4,8 @@ function prehrat(){
 }
 
 function pauza(){
-    
+    let audioFile = document.getElementById("pauza")
+    audioFile.onpause()
 }
 
 function vypnout(){
